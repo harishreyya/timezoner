@@ -1,0 +1,107 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+button{
+  cursor:pointer;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.date-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.date-controls .react-datepicker {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: aliceblue;
+}
+
+.timezone-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  background: linear-gradient(to right, #7fffd4, #faebd7); 
+  color: #000; 
+}
+
+.timezone-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  color: #333; 
+  cursor: pointer;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.timezone-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.swap-button, .add-event-button {
+  border: none;
+  color: #ffffff; 
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.swap-button {
+  background-color: #6495ed; 
+}
+
+.swap-button:hover {
+  background-color: #4169e1; 
+  transform: scale(1.05);
+}
+
+.add-event-button {
+  background-color: #ff6347; 
+  text-decoration: none;
+}
+
+.add-event-button:hover {
+  background-color: #e5533e; 
+  transform: scale(1.05);
+}

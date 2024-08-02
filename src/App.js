@@ -1,13 +1,13 @@
-import './App.css';
+import React from 'react';
+import {TimezoneChange} from './components/TimerConverter';
+import "./App.css"
 
-
-function App() {
-
+const App = () => {
   return (
-    <div className="App">
-    
+    <div>
+      <TimezoneChange/>
     </div>
   );
-}
+};
 
 export default App;
